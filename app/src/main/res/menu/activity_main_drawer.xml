@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gank"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="干货" />
+        <item
+            android:id="@+id/nav_hotnews"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="热门新闻" />
+        <item
+            android:id="@+id/nav_article"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="每日一文" />
+        <item
+            android:id="@+id/nav_zhihu"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="知乎精选" />
+    </group>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/nav_openeye"
+                android:icon="@drawable/ic_menu_share"
+                android:title="开眼视频" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="关于" />
+        </menu>
+    </item>
+
+</menu>
